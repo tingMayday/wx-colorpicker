@@ -1,0 +1,34 @@
+/* pages/test/test.wxss */
+page{
+  padding: 30rpx;
+  background: #d8f7e88a;
+  box-sizing: border-box;
+}
+.title{
+  padding: 20rpx 0;
+  text-align: center;
+  font-size: 42rpx;
+}
+.type{
+  display: flex;
+  padding: 50rpx 0;
+}
+.radio{
+  display: flex;
+  align-items: center;
+  padding-right: 30rpx;
+}
+radio .wx-radio-input{
+  height: 30rpx;
+  width: 30rpx;
+}
+.content{
+  padding: 50rpx ;
+  margin-bottom: 50rpx;
+  line-height: 56rpx;
+  font-size: 28rpx;
+  border: 2rpx dashed #000;
+}
+.author{
+  text-align: right;
+}

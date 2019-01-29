@@ -1,0 +1,22 @@
+<view class="title">Color Picker</view>
+<radio-group class="type" bindchange="radioChange">
+  <label class="radio">
+    <radio value="bg" checked="checked" />
+    <text>背景</text>
+  </label>
+  <label class="radio">
+    <radio value="font" checked="" />
+    <text>文字</text>
+  </label>
+  <label class="radio">
+    <radio value="border" checked="" />
+    <text>边框</text>
+  </label>
+</radio-group>
+
+<view class="content" style="color: {{font_color}}; background-color: {{bg_color}}; border-color:{{border_color}}">
+  <text>做你没做过的事情叫成长，做你不愿意做的事情叫改变，做你不敢做的事情叫突破。</text>
+  <view class="author">— 巴菲特</view>
+</view>
+
+<color-picker cus="{{cp_cus}}" color="{{cp_color}}" bindcolor="color" />
