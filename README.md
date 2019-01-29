@@ -23,7 +23,7 @@
 ```bash
 <color-picker cus="{{cp_cus}}" color="{{cp_color}}" bindcolor="color" />
 ```
-- cus传入colorpicker默认显示的颜色列表
+- cus传入colorpicker默认显示的颜色列表数组
 
   ![默认颜色列表](https://github.com/tingMayday/wx-colorpicker/blob/colorpicker/images/img1.jpg)
   
