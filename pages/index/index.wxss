@@ -11,7 +11,7 @@ page{
 }
 .type{
   display: flex;
-  padding: 50rpx 0;
+  padding: 30rpx 0;
 }
 .radio{
   display: flex;
@@ -24,7 +24,7 @@ radio .wx-radio-input{
 }
 .content{
   padding: 50rpx ;
-  margin-bottom: 50rpx;
+  margin-bottom: 30rpx;
   line-height: 56rpx;
   font-size: 28rpx;
   border: 2rpx dashed #000;
